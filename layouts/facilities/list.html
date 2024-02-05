@@ -1,0 +1,59 @@
+{{ define "main" }}
+<section>
+    <div class="text-center">
+        <div
+            class="from-body to-theme-light dark:from-darkmode-body dark:to-darkmode-theme-light rounded-2xl bg-gradient-to-b px-8 py-4">
+            <h1>{{ .Title | title }}</h1>
+        </div>
+    </div>
+</section>
+
+
+<section class="relative container mx-auto my-3">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <div id="map" class="w-full h-96 m-3"></div>
+
+    <script>
+        // Creating map options
+        var mapOptions = {
+            center: [27.70961,85.34794],
+            zoom: 8
+        }
+        // Creating a map object
+        var map = new L.map('map', mapOptions);
+
+        // Creating a Layer object
+        var layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        const facilities = [
+            {{ range .RegularPages.ByParam "order" }}
+                JSON.parse({{.Params | jsonify (dict "prefix" " " ) }}),
+            {{ end }}
+        ]
+        facilities.forEach(a => { const m = L.marker([a.lat, a.long]).addTo(map);
+            m.bindPopup(a.title);
+         })
+        var facility1 = L.marker([27.70961,85.34794]).addTo(map);
+        facility1.bindPopup("Panchadewal Bridhdhashram");
+    </script>
+    {{.Content | markdownify }}
+</section>
+
+<section class="container">
+    <ul>
+    {{ range .RegularPages.ByParam "order" }}
+    <li>
+        <a
+        href="{{ .Permalink }}"
+        class="text-xl font-bold text-dark dark:text-darkmode-dark block">
+        {{ .Title }}
+          </a>
+    </li>
+    {{ end }}
+</ul>
+</section>
+{{ end }}

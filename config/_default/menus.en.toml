@@ -1,0 +1,89 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "About us"
+weight = 1
+hasChildren = true
+
+# [[main]]
+# parent = "About us"
+# name = "About Company"
+# url = "about/company"
+
+[[main]]
+parent = "About us"
+name = "Our team"
+url = "team"
+
+# [[main]]
+# parent = "About us"
+# name = "Quality Policy"
+# url = "about/quality-policy"
+
+[[main]]
+name = "Facilities"
+url = "facilities/"
+weight = 2
+
+[[main]]
+name = "Policies"
+url = "policies/"
+weight = 3
+
+[[main]]
+name = "FAQ"
+url = "faq/"
+weight = 4
+
+[[main]]
+weight = 5
+name = "Blog"
+url = "blog/"
+
+[[main]]
+weight = 6
+name = "Contact"
+url = "contact/"
+
+# [[main]]
+# weight = 5
+# name = "Pages"
+# hasChildren = true
+
+# [[main]]
+# parent = "Pages"
+# name = "Contact"
+# url = "contact/"
+
+# [[main]]
+# parent = "Pages"
+# name = "Authors"
+# url = "authors/"
+
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# url = "categories/"
+
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# url = "404/"
+
+
+# footer menu
+# [[footer]]
+# name = "Quality Policy"
+# url = "about/quality-policy"
+# weight = 3
+
+[[footer]]
+weight = 5
+name = "Contact"
+url = "contact/"
+
+# [[footer]]
+# name = "Elements"
+# url = "elements/"
+# weight = 2
