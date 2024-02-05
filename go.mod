@@ -1,4 +1,4 @@
-module nepgenclinical/nepgenclinical.com
+module ask-foundation/aged-care-nepal
 
 go 1.20
 
