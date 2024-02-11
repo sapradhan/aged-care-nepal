@@ -79,11 +79,16 @@ url = "contact/"
 # weight = 3
 
 [[footer]]
-weight = 5
+weight = 1
 name = "Contact"
 url = "contact/"
 
-# [[footer]]
-# name = "Elements"
-# url = "elements/"
-# weight = 2
+[[footer]]
+name = "Volunteer"
+url = "volunteer/"
+weight = 2
+
+[[footer]]
+name = "Donate"
+url = "donate/"
+weight = 3

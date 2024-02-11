@@ -1,7 +1,8 @@
 ---
 title: Mr Kabin Maleku
-exp_years: 4
-order: 7
+degree: M Pharm
+affiliation: Ask Foundation
+order: 1
 image: /images/team/kabin-maleku.webp
 position: Founding member
 ---

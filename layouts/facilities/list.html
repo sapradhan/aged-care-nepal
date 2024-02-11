@@ -8,10 +8,28 @@
     </div>
 </section>
 
+<section class="container my-8">
+    <div class="grid grid-cols-2 gap-6">
+    {{ $paginator:= .Paginate .RegularPages.ByWeight 4 }}
+    {{ range $paginator.Pages }}
+        <div class="flex flex-col gap-2 text-center">
+            <a
+            href="{{ .Permalink }}"
+            class="text-xl font-bold text-dark dark:text-darkmode-dark block">
+            {{ .Title }}
+            </a>
+            <span>{{ with .Params.palika }}{{ . }}, {{end}}{{ .Params.district}}</span>
+        </div>
+    {{ end }}
+    
+    </div>
+<div class="text-center">{{ partial "components/pagination.html" . }}</div>
+</section>
 
 <section class="relative container mx-auto my-3">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <h1 class="h2 ml-4">Map</h1>
     <div id="map" class="w-full h-96 m-3"></div>
 
     <script>
@@ -34,26 +52,13 @@
                 JSON.parse({{.Params | jsonify (dict "prefix" " " ) }}),
             {{ end }}
         ]
-        facilities.forEach(a => { const m = L.marker([a.lat, a.long]).addTo(map);
+        facilities.filter(a => a.lat && a.long ).forEach(a => { const m = L.marker([a.lat, a.long]).addTo(map);
             m.bindPopup(a.title);
          })
-        var facility1 = L.marker([27.70961,85.34794]).addTo(map);
-        facility1.bindPopup("Panchadewal Bridhdhashram");
+        //var facility1 = L.marker([27.70961,85.34794]).addTo(map);
+        //facility1.bindPopup("Panchadewal Bridhdhashram");
     </script>
     {{.Content | markdownify }}
 </section>
 
-<section class="container">
-    <ul>
-    {{ range .RegularPages.ByParam "order" }}
-    <li>
-        <a
-        href="{{ .Permalink }}"
-        class="text-xl font-bold text-dark dark:text-darkmode-dark block">
-        {{ .Title }}
-          </a>
-    </li>
-    {{ end }}
-</ul>
-</section>
 {{ end }}

@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <section class="section-sm pb-0">
+    <div class="container">
+      <div
+        class="row justify-center pb-14">
+        <h1 class="h2 mt-10 text-center">{{ .Title }}</h1>
+        <div class="content mt-6">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <h1 class="h3 text-center">Our bank accounts</h1>
+      <div class="row pb-16 pt-14 justify-around">
+        {{ range .Params.accounts }}
+          <div class="mt-4 md:col-6 lg:col-4 mb-12">
+            <h4>{{.name}}</h4>
+            <div class="grid grid-cols-2">
+              <span>Account Name</span><span>{{ .name }}</span>
+              <span>Account No</span><span>{{ .ac_no }}</span>
+              <span>Bank, branch</span><span>{{ .bank }}, {{ .branch }}</span>
+              <span>{{ .code_type }}:</span><span>{{ .code }}</span>
+            </div>
+            {{ with .qr }}
+            <img src="{{ . }}" class="w-64" />
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

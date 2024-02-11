@@ -92,9 +92,9 @@ const branch =
           ],
         },
         {
-          name: "services",
-          label: "Services",
-          path: "content/english/services",
+          name: "facilities",
+          label: "Facilities",
+          path: "content/english/facilities",
           match: {
             exclude: '_index'
           },
@@ -111,34 +111,144 @@ const branch =
             {
               type: "string",
               name: "title",
-              label: "Title",
+              label: "Name",
               isTitle: true,
               required: true,
             },
             {
-              type: "boolean",
-              name: "featured",
-              label: "Featured on homepage",
+              type: "number",
+              name: "weight",
+              label: "Order(Lower comes first)",
+              required: true
+            },
+            {
+              type: "datetime",
+              name: "lastUpdated",
+              label: "Updated date",
+              required: true
+            },
+            {
+              type: "number",
+              name: "lat",
+              label: "Latitude",
+            },
+            {
+              type: "number",
+              name: "long",
+              label: "Longitude",
             },
             {
               type: "string",
-              name: "synopsis",
-              label: "Synopsis (text to appear on home page)",
+              name: "street_address",
+              label: "Street Address",
             },
             {
               type: "string",
-              name: "icon",
-              label: "Icon (if appears on home page)",
+              name: "location",
+              label: "Location",
+            },
+            {
+              type: "number",
+              name: "ward",
+              label: "Ward",
+            },
+            {
+              type: "string",
+              name: "palika",
+              label: "Municipality",
+            },
+            {
+              type: "string",
+              name: "district",
+              label: "District",
+            },
+            {
+              type: "string",
+              name: "province",
+              label: "Province",
+            },
+            {
+              type: "string",
+              name: "type",
+              label: "Type",
+              options: [
+                {
+                  value: 'govt',
+                  label: 'Government',
+                },
+                {
+                  value: 'non-profit',
+                  label: 'Non-profit',
+                },
+                {
+                  value: 'private',
+                  label: 'Private',
+                }
+              ]
+            },
+            {
+              type: "string",
+              name: "tel",
+              label: "Telephone",
+            },
+            {
+              type: "string",
+              name: "email",
+              label: "Email",
+            },
+            {
+              type: "string",
+              name: "website",
+              label: "Website",
+            },
+            {
+              type: "string",
+              name: "capacity",
+              label: "Capacity",
+            },
+            {
+              type: "string",
+              name: "occupancy",
+              label: "Occupancy",
+            },
+            {
+              type: "number",
+              name: "cost_per_month",
+              label: "Cost per month",
+            },
+            {
+              type: "string",
+              name: "estd",
+              label: "Established date AD",
+            },
+            {
+              type: "string",
+              name: "food",
+              label: "Diet options",
+              ui: {
+                component: "textarea"
+              }
+            },
+            {
+              type: "string",
+              name: "medical",
+              label: "Medical facilities",
+              ui: {
+                component: "textarea"
+              }
+            },
+            {
+              type: "string",
+              name: "services",
+              label: "Services offered",
+              ui: {
+                component: "textarea"
+              }
             },
             {
               type: "image",
               name: "banner",
-              label: "Banner",
-            },
-            {
-              type: "number",
-              name: "order",
-              label: "Order(Lower comes first)",
+              label: "Banner image",
             },
             {
               type: "string",
@@ -152,12 +262,6 @@ const branch =
               label: "Keywords",
               list: true
             },
-            {
-              type: "rich-text",
-              name: "body",
-              label: "Body",
-              isBody: true,
-            },
           ],
         },
         {
@@ -168,7 +272,7 @@ const branch =
           ui: {
             filename: {
               slugify: (values) => {
-                return `${values?.name
+                return `${values?.title
                   ?.toLowerCase()
                   .replace(/ /g, '-')
                   .replace(/[^-a-zA-Z_0-9]/g, '')}`
@@ -179,7 +283,7 @@ const branch =
             {
               type: "string",
               name: "title",
-              label: "Name and title",
+              label: "Name",
               required: true,
             },
             {
@@ -188,9 +292,9 @@ const branch =
               label: "Degrees"
             },
             {
-              type: "number",
-              name: "exp_years",
-              label: "Years of experience"
+              type: "string",
+              name: "affiliation",
+              label: "Affiliation"
             },
             {
               type: "number",
@@ -202,13 +306,11 @@ const branch =
               type: "image",
               name: "image",
               label: "Image",
-              required: true,
             },
             {
               type: "string",
               name: "position",
               label: "Position",
-              required: true,
             },
             {
               type: "string",
@@ -235,13 +337,17 @@ const branch =
           ],
         },
         {
-          name: "about",
-          label: "About pages",
-          path: "content/english/about",
+          name: "donate",
+          label: "Donate",
+          path: "content/english/pages",
           match: {
-            exclude: '**/_index'
+            include: 'donate'
           },
           ui: {
+            allowedActions: {
+              create: false,
+              delete: false,
+            },
             filename: {
               slugify: (values) => {
                 return `${values?.title?.toLowerCase()
@@ -259,9 +365,52 @@ const branch =
               required: true,
             },
             {
-              type: "image",
-              name: "banner",
-              label: "Banner",
+              type: "object",
+              name: "accounts",
+              label: "Accounts",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: `${item?.name} - ${item?.bank} `}
+                },
+              },
+              fields: [
+                {
+                  label: "Account Name",
+                  name: "name",
+                  type: "string"
+                },
+                {
+                  label: "Account No",
+                  name: "ac_no",
+                  type: "string"
+                },
+                {
+                  label: "Bank",
+                  name: "bank",
+                  type: "string"
+                },
+                {
+                  label: "Branch",
+                  name: "branch",
+                  type: "string"
+                },
+                {
+                  label: "Code Type",
+                  name: "code_type",
+                  type: "string"
+                },
+                {
+                  label: "Code",
+                  name: "code",
+                  type: "string"
+                },
+                {
+                  label: "QR",
+                  name: "qr",
+                  type: "image"
+                },
+              ]
             },
             {
               type: "rich-text",

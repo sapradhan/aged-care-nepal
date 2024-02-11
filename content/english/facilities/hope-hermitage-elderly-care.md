@@ -1,6 +1,6 @@
 ---
 title: Hope Hermitage Elderly Care
-order: 3
+weight: 3
 lastUpdated:
 lat: 27.720076
 long: 85.325934

@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+{{ with .Params }}
+<section class="container">
+<div class="grid grid-cols-2 md:grid-cols-4">
+  <span>Location:</span><span>{{.street_address}} {{.location}} {{ .district }}</span>
+  <span>Tel</span><span>{{.tel}}</span>
+  <span>Website</span><span>{{.website}}</span>
+  <span>Type</span><span>{{.type}}</span>
+  <span>Services</span><span>{{.services | markdownify}}</span>
+</div>
+</section>
+{{ end }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

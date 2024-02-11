@@ -1,11 +1,11 @@
 ---
 title: Dr Prabhat Adhikari
 degree: MD
+affiliation: 'Center for American Medical specialists (CAMS), ASK foundation, Nepal'
 order: 3
 image: /images/team/prabhat-adhikari.webp
 position: Founding member
 ---
-
 
 Dr. Prabhat Adhikari is a physician, entrepreneur, and healthcare reform activist with a keen interest in medical IT and research. During his super-specialization in Infectious Diseases and Critical Care in the USA, he had an epiphany about the dire need to revolutionize the healthcare system in third-world countries by leveraging cutting-edge technologies. Afterward, he collaborated with his colleagues to establish Danphe Care, a multinational company aimed at creating cutting-edge medical software that incorporates a Hospital Management System (HMS), Telemedicine, and Electronic Medical Record (EMR) on a global scale. This turned out to be a turning point in his career, and he decided to return home to pursue his dream.
 
