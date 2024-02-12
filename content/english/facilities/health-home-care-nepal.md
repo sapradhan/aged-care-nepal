@@ -10,7 +10,7 @@ ward: 9
 palika: Lalitpur Metro
 district: Lalitpur
 province: Bagamati
-type: Private
+facility_type: Private
 tel: 5541613 / +977-9841281688 / 9841404086
 email: hhcn2012@gmail.com
 website: https://healthhomecarenepal.com.np/

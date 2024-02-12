@@ -2,13 +2,28 @@
   {{ partial "page-header" . }}
 {{ with .Params }}
 <section class="container">
-<div class="grid grid-cols-2 md:grid-cols-4">
-  <span>Location:</span><span>{{.street_address}} {{.location}} {{ .district }}</span>
-  <span>Tel</span><span>{{.tel}}</span>
-  <span>Website</span><span>{{.website}}</span>
-  <span>Type</span><span>{{.type}}</span>
-  <span>Services</span><span>{{.services | markdownify}}</span>
-</div>
+  <div class="grid grid-cols-2 md:grid-cols-4 mt-4">
+    <span><i class="fa fa-location-dot"></i> {{.street_address}} {{.location}} {{.palika}} {{ .province }}</span>
+    {{with .tel}}<span><i class="fa fa-phone"></i> {{.}}</span>{{end}}
+    {{with .website}}<span><i class="fa fa-globe"></i> <a href="{{.}}" target="_blank">{{.}}</a></span>{{end}}
+    {{with .email}}<span><i class="fa fa-at"></i> <a href="mailto:{{.}}">{{.}}</a></span>{{end}}
+    {{with .capacity}}<span><i class="fa fa-people-group"></i> {{.}}</span>{{end}}
+    {{with .facility_type}}<span>Type: {{.}}</span>{{end}}
+  </div>
+</section>
+<section class="container my-4">
+  {{with .services}}
+    <h4 class="my-2">Services</h4>
+    <div>{{. | markdownify}}</div>
+  {{end}}
+  {{with .food}}
+    <h4 class="my-2">Diet Options</h4>
+    <div>{{. | markdownify}}</div>
+  {{end}}
+  {{with .medical}}
+    <h4 class="my-2">Medical facilities</h4>
+    <div>{{. | markdownify}}</div>
+  {{end}}    
 </section>
 {{ end }}
   <section class="section-sm">

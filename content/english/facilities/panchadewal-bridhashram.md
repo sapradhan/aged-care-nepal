@@ -8,7 +8,7 @@ location: Pashupati
 ward: 9
 palika: Kathmandu Metro
 province: Bagamati
-type: govt
+facility_type: Government
 tel: null
 email: null
 website: null

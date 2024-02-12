@@ -10,7 +10,7 @@ ward:
 palika: Kathmandu Metro
 district: Kathmandu
 province: Bagamati
-type: Non profit
+facility_type: Non profit
 tel: 01-4430469, 9851033588, +977 9841350377
 email: info@hopehermitage.org.np
 website: https://hopehermitage.org.np/

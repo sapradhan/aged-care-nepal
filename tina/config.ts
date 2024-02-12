@@ -169,19 +169,19 @@ const branch =
             },
             {
               type: "string",
-              name: "type",
+              name: "facility_type",
               label: "Type",
               options: [
                 {
-                  value: 'govt',
+                  value: 'Government',
                   label: 'Government',
                 },
                 {
-                  value: 'non-profit',
+                  value: 'Non-profit',
                   label: 'Non-profit',
                 },
                 {
-                  value: 'private',
+                  value: 'Private',
                   label: 'Private',
                 }
               ]
