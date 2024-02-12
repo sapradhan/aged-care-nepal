@@ -1,5 +1,5 @@
 ---
-title: Panchadewal Briddhashram
+title: Pashupati Briddhashram
 weight: 1
 lastUpdated: 2024-02-10T18:15:00.000Z
 lat: 27.70961
