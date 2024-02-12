@@ -1,7 +1,7 @@
 ---
 title: Dr. Poonam KC
 order: 9
-image: /images/Poonam KC.jpg
+image: /images/team/poonam-kc.webp
 ---
 
 DNP, APRN,FNC-P, CCRN

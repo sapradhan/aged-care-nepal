@@ -3,7 +3,7 @@ title: Ramu Kharel
 degree: 'MD, MPH, CTropMed®'
 affiliation: Brown University
 order: 6
-image: /images/rkharel_photo_.jpg
+image: /images/team/ramu-kharel.webp
 position: Assistant Professor
 ---
 

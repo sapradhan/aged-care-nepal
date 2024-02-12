@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section container">
+    <div>{{.Content | markdownify }}</div>
+    <table class="my-4"><thead>
+      <tr><th>Date</th><th>Policy Name</th><th>Highlights of the policy</th><th>Link</th></tr>
+    </thead>
+    <tbody>
+      {{range .Params.policies}}
+      <tr>
+        <td>{{.year}}</td>
+        <td>{{.name}}</td>
+        <td>{{.content}}</td>
+        <td>{{with .url}}<a href="{{.}}">Link</a>{{end}}</td>
+      </tr>
+      {{end}}
+    </tbody>
+    </table>
+
+  </section>
+{{ end }}

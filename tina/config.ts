@@ -365,6 +365,12 @@ const branch =
               required: true,
             },
             {
+              type: "rich-text",
+              name: "body",
+              label: "Body",
+              isBody: true,
+            },
+            {
               type: "object",
               name: "accounts",
               label: "Accounts",
@@ -412,20 +418,14 @@ const branch =
                 },
               ]
             },
-            {
-              type: "rich-text",
-              name: "body",
-              label: "Body",
-              isBody: true,
-            },
           ],
         },
         {
-          name: "testimonials",
-          label: "Testimonials",
-          path: "content/english/sections",
+          name: "policies",
+          label: "Policies",
+          path: "content/english/pages",
           match: {
-            include: 'testimonial'
+            include: 'policies'
           },
           ui: {
             allowedActions: {
@@ -448,37 +448,42 @@ const branch =
             },
             {
               type: "object",
-              name: "testimonials",
-              label: "Testimonials",
+              name: "policies",
+              label: "Policies",
               list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: `${item?.year} - ${item?.name}`}
+                },
+              },
               fields: [
                 {
-                  label: "Author",
+                  label: "Year",
+                  name: "year",
+                  type: "string"
+                },
+                {
+                  label: "Name",
                   name: "name",
                   type: "string"
                 },
                 {
-                  label: "Role",
-                  name: "designation",
-                  type: "string"
-                },
-                {
-                  type: "image",
-                  name: "avatar",
-                  label: "Image",
-                },
-                {
-                  label: "Quote",
+                  label: "Highlights",
                   name: "content",
                   type: "string",
                   ui: {
                     component: "textarea"
                   }
+                },
+                {
+                  label: "URL",
+                  name: "url",
+                  type: "string"
                 }
-              ]
-            },
-          ],
+                ]
+              },
+            ],
         },
-      ],
-    },
-  });
+      ]
+  }
+});

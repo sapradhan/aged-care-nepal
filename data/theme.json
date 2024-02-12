@@ -33,7 +33,7 @@
     "font_family": {
       "primary": "Fira+Sans:wght@400;600",
       "primary_type": "sans-serif",
-      "secondary": "Signika:wght@400;600",
+      "secondary": "Signika+Negative:wght@400;600",
       "secondary_type": "sans-serif"
     },
     "font_size": {

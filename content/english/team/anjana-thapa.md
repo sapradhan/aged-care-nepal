@@ -3,7 +3,7 @@ title: Ms Anjana Thapa
 degree: BPH
 affiliation: Ask Foundation
 order: 2
-image: /images/Anjana Thapa (1).jpg
+image: /images/team/anjana-thapa.webp
 position: Founding member
 ---
 

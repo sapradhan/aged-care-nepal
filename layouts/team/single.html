@@ -3,10 +3,12 @@
     <div
       class="from-body to-theme-light dark:from-darkmode-body dark:to-darkmode-theme-light bg-gradient-to-b px-8 py-14 ">
       <div class="container flex items-center">
-        <img class="w-48 h-48 xl:w-48 xl:h-48 mr-3 lg:mr-6" src="{{.Params.image}}" />
+        <img class="w-48 h-48 xl:w-48 xl:h-48 mr-3 lg:mr-6" src="{{with .Params.image}}{{.}}{{else}}/images/avatar.png{{end}}" />
         <div class="flex flex-col gap-1">
-          <h1>{{ .Title | title }}  {{ .Params.name }}</h1>
+          <h1>{{ .Title | title }}</h1>
           <span class="text-xl">{{ .Params.position }}</span>
+          <span>{{ .Params.affiliation }}</span>
+          <span>{{ .Params.degree }}</span>
         </div>
       </div>
     </div>

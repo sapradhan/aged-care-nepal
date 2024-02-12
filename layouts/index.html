@@ -73,25 +73,6 @@
   {{ end }}
   <!-- /Features -->
 
-  <section class="section-sm bg-gradient">
-    <div class="container">
-      <h2 class="text-center mb-4">Services</h2>
-      <div class="grid sm:gap-y-8 lg:grid-cols-3 sm:grid-cols-2 gap-4 md:gap-6">
-        {{ range sort (where .Site.RegularPages "Type" "services") ".Params.order" "asc" }}
-          <div class="relative flex flex-col rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6">
-              <span class="my-2">{{ partial "icons/icon" (dict "vendor" "tabler" "name" .Params.icon "width" "5em" "height" "5em") }}</span>
-              <a
-                href="{{ .Permalink }}"
-                class="text-xl font-bold text-dark dark:text-darkmode-dark block">
-                {{ .Title }}
-              </a>
-              <div>{{ .Params.description }}</div>
-          </div>
-        {{ end }}
-        </div>
-    </div>
-  </section>
-
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}

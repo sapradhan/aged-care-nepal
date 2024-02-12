@@ -1,10 +1,10 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/logo/logo.png"
+favicon = "images/logo/logo-128x128.png"
 # logo
-logo = "images/logo/logo.png"
-logo_darkmode = "images/logo/logo.png"
-logo_mobile = "images/logo/logo.png"
+logo = "images/logo/logo-128x128.png"
+logo_darkmode = "images/logo/logo-128x128.png"
+logo_mobile = "images/logo/logo-128x128.png"
 
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
@@ -41,9 +41,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "get a quote"
-link = "contact"
+enable = true
+label = "Donate"
+link = "/donate"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -78,7 +78,7 @@ mastodon = "" # Your verification code
 # cookies
 # cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
-enable = true
+enable = false
 expire_days = 60
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"

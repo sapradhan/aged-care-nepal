@@ -1,6 +1,5 @@
 ---
 title: Volunteer
-
 ---
 
 Who can volunteer:
@@ -18,8 +17,8 @@ As a volunteer, you will have the chance to engage with the elderly residents, s
 As part of our sustainability efforts, volunteers are expected to cover the cost of their stay. 
 
 Nepali Nationals: NRs 10,000 per month
-Foreign Nationals: USD 800 per month
 
+Foreign Nationals: USD 800 per month
 
 #### **[Volunteer Form](https://docs.google.com/forms/d/1EYJa5tKwu9GGbVHUKXgYlLmlg_7nGzCLLchpdpLHkSw/edit)**
 

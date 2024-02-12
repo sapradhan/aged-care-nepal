@@ -3,7 +3,7 @@
     <div class="container">
       <div
         class="row justify-center pb-14">
-        <h1 class="h2 mt-10 text-center">{{ .Title }}</h1>
+        <h1 class="h1 mt-10 text-center">{{ .Title }}</h1>
         <div class="content mt-6">
           {{ .Content }}
         </div>
@@ -13,12 +13,12 @@
       <div class="row pb-16 pt-14 justify-around">
         {{ range .Params.accounts }}
           <div class="mt-4 md:col-6 lg:col-4 mb-12">
-            <h4>{{.name}}</h4>
-            <div class="grid grid-cols-2">
+            <h3>{{.name}}</h3>
+            <div class="grid grid-cols-[1fr_2fr]">
               <span>Account Name</span><span>{{ .name }}</span>
               <span>Account No</span><span>{{ .ac_no }}</span>
               <span>Bank, branch</span><span>{{ .bank }}, {{ .branch }}</span>
-              <span>{{ .code_type }}:</span><span>{{ .code }}</span>
+              <span>{{ .code_type }}</span><span>{{ .code }}</span>
             </div>
             {{ with .qr }}
             <img src="{{ . }}" class="w-64" />
