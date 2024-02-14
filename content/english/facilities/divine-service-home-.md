@@ -16,5 +16,6 @@ medical: >-
   physiotherapist are present in the center six days a week and weekly checkups
   are held by different doctors. The healthcare center also has its own medical
   clinic which helps to provide free medicinal service to Ashram residents.
+banner: /images/Screenshot (63).png
 ---
 
