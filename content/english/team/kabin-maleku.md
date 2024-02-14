@@ -11,6 +11,8 @@ Master’s degree in Pharmaceutics, BITS Pilani
 
 Executive Director, ASK Foundation
 
-Director of Operations, Novala Biotech 
+Director of Operations, Novala Biotech
 
 Project Coordinator, Raskot Community Hospital
+
+Former Chief Operation Officer, Danphe care
