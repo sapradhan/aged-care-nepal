@@ -2,6 +2,9 @@
 title: 'Divine Service Home '
 weight: 19
 lastUpdated: 2024-02-13T18:15:00.000Z
+street_address: 'Golfutar Budhanilkanth, Kathmandu (Nepal)'
+district: 'Kathmandu, Hetauda'
+facility_type: Non-profit
 tel: >-
   Kathamandu Ashram:  +977-9841531340, +977-1-4375020  Hetauda Ashram: 
   +977-9808543077,+977-9826267818, +977-9841793428
