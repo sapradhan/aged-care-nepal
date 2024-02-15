@@ -6,7 +6,7 @@
         {{ range .RegularPages.ByParam "order" }}
           <div class="relative {{ if .Params.span }} xl:col-span-3 md:col-span-2 {{end}} flex items-center justify-center rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6">
             {{ with .Params.image }}
-            <img class="w-24 h-24 md:w-30 md:h-30 xl:w-48 xl:h-48 mr-3 lg:mr-6" src="{{.}}" /> 
+            <img class="rounded w-24 h-24 md:w-30 md:h-30 xl:w-48 xl:h-48 mr-3 lg:mr-6" src="{{.}}" /> 
             {{ else }}
             {{ partial "icons/icon" (dict "vendor" "tabler" "name" "user-circle" "className" "w-24 h-24 md:w-30 md:h-30 xl:w-48 xl:h-48 mr-3 lg:mr-6" "width" "5em" "height" "5em") }}
             {{ end }}
