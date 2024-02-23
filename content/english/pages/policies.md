@@ -30,11 +30,10 @@ policies:
   - year: '2007'
     name: The Senior Citizens Act and Regulation
     content: 'Aims to ensure social, economic and human rights of elderly citizens'
-  - year: '2005'
+  - year: '2021'
     name: Senior Citizen Treatment Guidelines
-    content: >-
-      As per its guidelines, poverty affected elderly people are provided free
-      medicine and treatment up to NRs 2000(14.92 USD) at a time
+    content: ''
+    url: 'https://drive.google.com/file/d/1_zZvPv4XtWg7uXTFWr0H12r8TvcTIYgz/view'
   - year: '2020'
     name: Geriatrics Health Service Directives
     content: Endorsed 50% discount in certain health services and listed 24 hospitals
