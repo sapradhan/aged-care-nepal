@@ -2,6 +2,8 @@
 title: Happy Heart Old Age Home
 weight: 21
 lastUpdated: 2024-02-14T18:15:00.000Z
+lat: 6.81667
+long: 79.9667
 street_address: 'fulbari marga khumaltar, Lalitpur, Nepal'
 tel: "\t+977-9843545234, +977-9803595512"
 email: info@yourdomain.com
