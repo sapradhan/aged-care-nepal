@@ -3,16 +3,13 @@ layout: policies
 title: Policies for Elderly in Nepal
 description: ''
 policies:
-  - year: '2008'
-    name: Senior Citizens Rules
-    url: >-
-      https://nepal.unfpa.org/sites/default/files/pub-pdf/senior_citizens_guidelines.pdf
   - year: '1963'
     name: Civil Code
     content: Provision for elderly people in the section property right distribution
-  - year: '1998'
+  - year: '1999'
     name: Local Self Governance Act
     content: Monthly allowance
+    url: 'https://faolex.fao.org/docs/pdf/nep74262.pdf'
   - year: '2006'
     name: Senior Citizen Policy
     content: >-
