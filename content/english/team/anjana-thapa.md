@@ -3,7 +3,7 @@ title: Ms Anjana Thapa
 degree: BPH
 affiliation: Ask Foundation
 order: 2
-image: /images/AT.jpg
+image: /images/Image_Editor.png
 position: Founding member
 span: ''
 ---
