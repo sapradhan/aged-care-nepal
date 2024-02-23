@@ -2,6 +2,8 @@
 title: Matatirtha Oldage Home
 weight: 21
 lastUpdated: 2024-01-31T18:15:00.000Z
+lat: 27.681320880559273
+long: 85.23138742489675
 street_address: 'Chandragiri-6,Kathmandu'
 district: Kathmandu
 province: Bagmati
