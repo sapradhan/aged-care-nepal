@@ -1,13 +1,11 @@
 ---
 title: Mr Kabin Maleku
-degree: M Pharm
+degree: 'Master’s degree in Pharmaceutics, BITS Pilani'
 affiliation: Ask Foundation
 order: 1
 image: /images/team/kabin-maleku.webp
 position: Founding member
 ---
-
-Master’s degree in Pharmaceutics, BITS Pilani
 
 Executive Director, ASK Foundation
 
