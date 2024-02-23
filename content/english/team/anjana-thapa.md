@@ -5,7 +5,7 @@ affiliation: Ask Foundation
 order: 2
 image: /images/AT.jpg
 position: Founding member
-span: normal
+span: ''
 ---
 
 Bachelor of Public Health (BPH)
