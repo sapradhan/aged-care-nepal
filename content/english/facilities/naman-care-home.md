@@ -2,6 +2,8 @@
 title: Naman Care Home
 weight: 24
 lastUpdated: 2024-02-22T18:15:00.000Z
+lat: 27.742525196003886
+long: 85.34456376722936
 street_address: 'Maharajgunj, Near Gangalal Hospital'
 district: Kathmandu
 province: Bagmati
@@ -17,7 +19,7 @@ food: >
 medical: |
   Medication Management:
   Palliative and End-of-Life Care
-services: |+
+services: |
   24 hours residential care 
   Post Stroke Rehabilitation Care
   Brain and Spine Rehabilitation Care
