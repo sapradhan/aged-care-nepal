@@ -27,6 +27,7 @@ policies:
   - year: (2010/11-2012/13)
     name: Three Year Plan Approach paper
     content: 'improving support program access, and enhancing stakeholder coordination'
+    url: 'https://www.npc.gov.np/images/category/11tyip_eng.pdf'
   - year: '2007'
     name: The Senior Citizens Act and Regulation
     content: 'Aims to ensure social, economic and human rights of elderly citizens'
