@@ -3,6 +3,10 @@ layout: policies
 title: Policies for Elderly in Nepal
 description: ''
 policies:
+  - year: '2008'
+    name: Senior Citizens Rules
+    url: >-
+      https://nepal.unfpa.org/sites/default/files/pub-pdf/senior_citizens_guidelines.pdf
   - year: '1963'
     name: Civil Code
     content: Provision for elderly people in the section property right distribution
