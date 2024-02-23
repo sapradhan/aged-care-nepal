@@ -2,6 +2,8 @@
 title: 'Divine Service Home '
 weight: 19
 lastUpdated: 2024-02-13T18:15:00.000Z
+lat: 27.74
+long: 85.34
 street_address: 'Golfutar Budhanilkanth, Kathmandu (Nepal)'
 district: 'Kathmandu, Hetauda'
 province: Bagmati
