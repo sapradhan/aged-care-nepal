@@ -9,11 +9,13 @@ policies:
   - year: '1998'
     name: Local Self Governance Act
     content: Monthly allowance
-  - year: '2002'
+  - year: '2006'
     name: Senior Citizen Policy
     content: >-
       Incorporates economic benefit, social security, aims to enhance respect
       and dignity of elderly in family
+    url: >-
+      https://nepal.unfpa.org/en/publications/senior-citizens-act#:~:text=This%20Senior%20Citizens%20Act%202063,and%20experiences%20inherent%20in%20them.
   - year: '2005'
     name: National Plan of Action for Senior Citizens
     content: >-
@@ -21,9 +23,6 @@ policies:
       autonomous agencies to meet senior citizens’ needs.
     url: >-
       https://nepal.unfpa.org/en/publications/national-plan-action-senior-citizens#:~:text=The%20Government%20of%20Nepal%20developed,non%2Dgovernmental%20and%20autonomous%20agencies.
-  - year: ''
-    name: ''
-    content: ''
   - year: (2010/11-2012/13)
     name: Three Year Plan Approach paper
     content: 'improving support program access, and enhancing stakeholder coordination'
