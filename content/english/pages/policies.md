@@ -21,11 +21,9 @@ policies:
       autonomous agencies to meet senior citizens’ needs.
     url: >-
       https://nepal.unfpa.org/en/publications/national-plan-action-senior-citizens#:~:text=The%20Government%20of%20Nepal%20developed,non%2Dgovernmental%20and%20autonomous%20agencies.
-  - year: '2006'
-    name: Applied Senior Citizen Act and Applied Senior Rule 2008
-    content: >-
-      Each organisation providing health services shall provide health services
-      by giving priority to senior citizens
+  - year: ''
+    name: ''
+    content: ''
   - year: (2010/11-2012/13)
     name: Three Year Plan Approach paper
     content: 'improving support program access, and enhancing stakeholder coordination'
