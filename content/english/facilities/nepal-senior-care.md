@@ -2,6 +2,8 @@
 title: Nepal Senior Care
 weight: 7
 lastUpdated: 2024-01-04T18:15:00.000Z
+lat: 27.733234888855517
+long: 85.31060344430361
 street_address: 'Mhepi, Nayabazar, Kathmandu'
 district: Kathmandu
 province: Bagmati
