@@ -1,7 +1,7 @@
 ---
+layout: policies
 title: Policies for Elderly in Nepal
 description: ''
-layout: policies
 policies:
   - year: '1963'
     name: Civil Code
@@ -38,6 +38,7 @@ policies:
   - year: '2020'
     name: Geriatrics Health Service Directives
     content: Endorsed 50% discount in certain health services and listed 24 hospitals
+    url: 'http://dohs.gov.np/geriatric-care-center-implementation-guideline2077/'
   - year: 2021-2030
     name: Geriatric Health Service Strategy
     content: >-
