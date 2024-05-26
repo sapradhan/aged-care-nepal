@@ -1,7 +1,7 @@
 ---
 title: Dr Jyoti Khadka
 affiliation: Flinders University
-order: 8
+order: 4
 image: /images/download (1).jpeg
 ---
 
