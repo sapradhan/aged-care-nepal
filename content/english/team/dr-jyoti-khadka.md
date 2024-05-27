@@ -1,5 +1,5 @@
 ---
-title: Dr Jyoti Khadka
+title: Dr. Jyoti Khadka
 affiliation: Flinders University
 order: 4
 image: /images/download (1).jpeg
