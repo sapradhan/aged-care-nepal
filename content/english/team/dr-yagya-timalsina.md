@@ -1,5 +1,5 @@
 ---
-title: Dr Yagya Prasad Timalsina
+title: Dr. Yagya Prasad Timalsina
 degree: MBBS
 affiliation: Ask foundation Nepal
 order: 4
