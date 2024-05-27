@@ -1,5 +1,5 @@
 ---
-title: Mr Kabin Maleku
+title: Asst. Prof. Kabin Maleku
 degree: 'Master’s degree in Pharmaceutics, BITS Pilani'
 affiliation: Ask Foundation
 order: 1
