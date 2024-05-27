@@ -5,7 +5,7 @@ degree: >-
   Medical Sciences (NAMS), Nepal Postgraduate Diploma in Geriatric Medicine,
   Christian Medical College (CMC), Vellore, India
 affiliation: 'Norvic International Hospital and Medical college '
-order: 4
+order: 5
 image: /images/33.jpg
 ---
 
@@ -13,5 +13,3 @@ Expertise:
 
 * Emergency Medicine
 * Geriatric Medicine
-
-
