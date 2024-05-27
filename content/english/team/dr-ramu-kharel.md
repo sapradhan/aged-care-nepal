@@ -1,5 +1,5 @@
 ---
-title: Ramu Kharel
+title: Dr. Ramu Kharel
 degree: 'MD, MPH, CTropMed®'
 affiliation: Brown University
 order: 6
