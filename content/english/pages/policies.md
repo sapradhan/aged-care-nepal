@@ -3,7 +3,7 @@ layout: policies
 title: Policies for Elderly in Nepal
 description: ''
 policies:
-  - year: 2077 B.S
+  - year: '2021'
     name: Geriatrics (Senior Citizens) Health Service Program Implementation
     url: 'https://drive.google.com/file/d/1_zZvPv4XtWg7uXTFWr0H12r8TvcTIYgz/view'
   - year: '1963'
