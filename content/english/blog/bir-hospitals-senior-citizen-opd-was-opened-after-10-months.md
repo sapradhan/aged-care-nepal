@@ -1,5 +1,5 @@
 ---
-title: Bir Hospital's Senior Citizen OPD has opened after 10 months
+title: Bir Hospital Reopens Senior Citizen OPD After 10 Months of Closure
 synopsis: '18 out of 60 ICUs still closed, only 775 out of 966 beds operational'
 banner: /images/Screenshot (189).png
 date: 2024-08-19T18:15:00.000Z
