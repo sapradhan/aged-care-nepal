@@ -5,7 +5,7 @@ banner: /images/Screenshot (189).png
 date: 2024-08-19T18:15:00.000Z
 ---
 
-The Senior Citizen OPD (Outpatient) Ward of Bir Hospital has come into operation. The ward, which had been closed for 10 months due to manpower reduction, has been operational since the first week of July.
+The Senior Citizen OPD (Outpatient) Ward of Bir Hospital has come into operation. The ward, which had been closed for 10 months due to manpower reduction, is operational since the first week of July 2024.
 
 Dr. Santosh Paudel, the Executive Director of the hospital, stated that the ward was able to reopen after the addition of 100 nurses. He explained, "The Elderly OPD ward had to be closed due to a lack of manpower since November 6, 2023, but we've reopened it after appointing 100 nurses. The regular OPD service will now continue."
 
