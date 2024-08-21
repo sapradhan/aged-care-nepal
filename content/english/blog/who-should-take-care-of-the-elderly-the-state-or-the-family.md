@@ -47,4 +47,6 @@ In Australia, government investment reaches the elderly directly. Such plans are
 
 Armed with this invaluable knowledge, we completed our nearly three-week educational visit. It became clear that Nepal also has much work to do. Just as the Australian government began safeguarding its elderly population through policy measures nearly 40 years ago, Nepal, too, must develop a strategic plan for elderly care. There is an urgent need for Nepal to work with stakeholders and experts to ensure a quality old age for its citizens.
 
-Source- Kabin Maleku, [https://shilapatra.com/detail/122317![](/images/kabin1696266030.jpg)](https://shilapatra.com/detail/122317)
+Source- Kabin Maleku, [https://shilapatra.com/detail/122317](https://shilapatra.com/detail/122317)
+
+"In Australia, elderly care is regarded as a national responsibility. The government has taken on this duty as a way to acknowledge and honor the contributions that the elderly population has made to the country’s development throughout their lives."
