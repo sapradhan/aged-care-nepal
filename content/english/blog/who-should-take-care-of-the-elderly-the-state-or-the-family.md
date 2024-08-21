@@ -49,4 +49,4 @@ Armed with this invaluable knowledge, we completed our nearly three-week educati
 
 Source- Kabin Maleku, [https://shilapatra.com/detail/122317](https://shilapatra.com/detail/122317)
 
-"In Australia, elderly care is regarded as a national responsibility. The government has taken on this duty as a way to acknowledge and honor the contributions that the elderly population has made to the country’s development throughout their lives."
+![](</images/Add a subheading.png>)
