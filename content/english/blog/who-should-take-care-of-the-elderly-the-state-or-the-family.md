@@ -11,7 +11,7 @@ Developed countries have consistently placed a high priority on elderly care, po
 
 **Learning from Australia’s Experience**
 
-Australia has been proactive in sharing its experiences regarding the development and implementation of aged care policies and programs. Through the ASK Foundation, Australia has engaged with various Asian countries, including Nepal, to share its knowledge and strategies. I had the privilege of being selected for the 'Aged Care Management and Policy' fellowship under the Australia Awards Scholarship through the ASK Foundation. This program saw participation from seven countries, including Nepal.
+Australia has been proactive in sharing its experiences regarding the development and implementation of aged care policies and programs. Through ASK Foundation, Australia has engaged with various Asian countries, including Nepal, to share its knowledge and strategies. I had the privilege of being selected for the 'Aged Care Management and Policy' fellowship under the Australia Awards Scholarship through ASK Foundation. This program saw participation from seven countries, including Nepal.
 
 During this fellowship, we had the unique opportunity to observe and understand the policy-making processes and implementation strategies of a prosperous nation like Australia. Institutions like Flinders University and the government agency ARRIA played a pivotal role in conducting evidence-based research and studies that informed the development of aging-related policies. Moreover, the experiences and challenges faced by private service providers were also analyzed, providing a comprehensive view of the sector.
 
