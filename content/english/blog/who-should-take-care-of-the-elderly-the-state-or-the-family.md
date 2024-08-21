@@ -1,6 +1,8 @@
 ---
 title: 'Who should take care of the elderly, the state or the family?'
 date: 2023-10-12T18:15:00.000Z
+tags:
+  - ''
 ---
 
 Aging is an undeniable reality. Along with the growth in population, the increase in the elderly population is another inevitable truth. Many countries have already benefited from population growth and are now effortlessly managing the burden of an aging society. Those countries currently experiencing a rise in the elderly population are also preparing to address this challenge in a systematic way.
