@@ -27,6 +27,6 @@ services: |-
   Medical Check-up
   Friendly environment
   Cremation Ceremony
-banner: /images/Screenshot (63).png
+banner: /images/facilities/divine-service-home.webp
 ---
 

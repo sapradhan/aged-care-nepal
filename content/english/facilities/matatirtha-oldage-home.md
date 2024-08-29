@@ -15,6 +15,6 @@ occupancy: 25 elderly women from ages 65 to 99 living in this home
 estd: '1997'
 food: 'Vegan, Vegetarian and non-vegetarian'
 services: Residential facility
-banner: /images/417769661_699023472347836_5824559894830556759_n.jpg
+banner: /images/facilites/matatirtha-old-age.webp
 ---
 

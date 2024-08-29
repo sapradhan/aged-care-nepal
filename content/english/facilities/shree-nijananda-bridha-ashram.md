@@ -1,5 +1,5 @@
 ---
-title: 'Shree Nijananda Bridha Ashram '
+title: Shree Nijananda Bridha Ashram
 weight: 22
 lastUpdated: 2024-02-15T18:15:00.000Z
 lat: 27.648514006017418

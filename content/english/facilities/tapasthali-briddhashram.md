@@ -1,5 +1,5 @@
 ---
-title: 'Tapasthali Briddhashram '
+title: Tapasthali Briddhashram
 weight: 21
 lastUpdated: 2024-02-14T18:15:00.000Z
 lat: 27.734879829485873

@@ -1,5 +1,5 @@
 ---
-title: 'Om Ashram (Old age centre) '
+title: Om Ashram (Old age centre)
 weight: 17
 lastUpdated: 2024-01-17T18:15:00.000Z
 lat: 27.72035505345338
