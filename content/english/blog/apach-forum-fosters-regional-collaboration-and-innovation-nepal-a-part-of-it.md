@@ -1,6 +1,6 @@
 ---
 title: APACH Forum Fosters Regional Collaboration and Innovation; Nepal a part of it
-banner: /images/11.jpg
+image: /images/blog/apach-11.webp
 date: 2024-05-17T18:15:00.000Z
 ---
 

@@ -1,10 +1,8 @@
 ---
 title: 'Who should take care of the elderly, the state or the family?'
 featured: true
-banner: /images/Add a subheading.png
+image: /images/blog/who-responsible-elderly-care.webp
 date: 2023-10-12T18:15:00.000Z
-tags:
-  - ''
 ---
 
 Aging is an undeniable reality. Along with the growth in population, the increase in the elderly population is another inevitable truth. Many countries have already benefited from population growth and are now effortlessly managing the burden of an aging society. Those countries currently experiencing a rise in the elderly population are also preparing to address this challenge in a systematic way.
@@ -52,5 +50,3 @@ In Australia, government investment reaches the elderly directly. Such plans are
 Armed with this invaluable knowledge, we completed our nearly three-week educational visit. It became clear that Nepal also has much work to do. Just as the Australian government began safeguarding its elderly population through policy measures nearly 40 years ago, Nepal, too, must develop a strategic plan for elderly care. There is an urgent need for Nepal to work with stakeholders and experts to ensure a quality old age for its citizens.
 
 Source- Kabin Maleku, [https://shilapatra.com/detail/122317](https://shilapatra.com/detail/122317)
-
-![](</images/Add a subheading.png>)

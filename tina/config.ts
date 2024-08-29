@@ -62,7 +62,7 @@ const branch =
             },
             {
               type: "image",
-              name: "banner",
+              name: "image",
               label: "Banner",
             },
             {

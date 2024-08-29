@@ -1,7 +1,9 @@
 <div class="bg-body dark:bg-darkmode-body">
   {{ $image:= .Params.image }}
   {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
+    <img decoding="async" src="{{ $image }}" alt="{{ .Title }}" class="mb-6 w-full h-32 sm:h-48 m:h-32 lg:h-64 rounded object-contain" />
+  {{ else }}
+    <img decoding="async" src="/images/placeholder.png" alt="{{ .Title }}" class="mb-6 w-full h-32 sm:h-48 m:h-32 lg:h-64 rounded object-contain" />
   {{ end }}
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">
