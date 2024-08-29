@@ -6,7 +6,7 @@ degree: >-
   Christian Medical College (CMC), Vellore, India
 affiliation: 'Norvic International Hospital and Medical college '
 order: 5
-image: /images/33.jpg
+image: /images/team/bindu-pandey.webp
 ---
 
 Expertise:
