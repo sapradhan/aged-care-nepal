@@ -7,7 +7,7 @@ date: 2024-09-03T18:15:00.000Z
 
 Eighty-five-year-old Harikrishna Kaila from Swamikartik Rural Municipality-4 is an example in Bajura of the struggles faced by individuals in the hilly and mountainous areas of Karnali and Sudurpaschim when trying to access healthcare services.
 
-On August 7, Kaila experienced diarrhea at his house. At first, his family attempted home remedies, however, the diarrhea persisted. After two days of receiving care at home with no signs of getting better, Ajbir had to carry his father for two hours in the morning to reach a road accessible by vehicles on Bhadra 9. They then arranged for a car to transport him to Kolti.
+On August 7, Kaila had diarrhea at home. Initially, her family treated her at home. Diarrhea did not stop. After two days of home treatment did not improve, son Azvir carried his father for two hours on the morning of the 9th and took him to the motorable road and from there reserved a vehicle and took him to Kolti.
 
 'When treatments at home did not work for my father, I brought him to Kolti airport to go to Nepalgunj,' Ajbir explained. 'Even after two days, the plane did not arrive.'
 
