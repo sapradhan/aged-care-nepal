@@ -15,6 +15,19 @@ services: >-
   Supervised care during the day.
 
   Day care for Dementia, Alzhemiers patients and other health conditions to
-  prevent being lonely at home and receive both mental and social stimulation
+  prevent being lonely at home and receive both mental and social stimulation.
+
+
+  Features:
+
+  Safety and Security
+
+  Pick and drop facilities
+
+  Social and recreational activities
+
+  Personalized care plans
+
+  Excellent Amenities
 ---
 
