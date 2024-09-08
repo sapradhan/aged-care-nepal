@@ -75,5 +75,20 @@ services: >-
   Nutritionally assisted meals
 
   Physiotherapy and Rehabilitation
+
+
+  MEMORY CARE
+
+  Features:
+
+  Safety & Security
+
+  Person centered care
+
+  Highly trained staff
+
+  Therapeutic programs and activities
+
+  Warm & Welcoming environment
 ---
 
