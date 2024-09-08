@@ -58,5 +58,25 @@ services: >-
   with cognitive challenges or any type of memory impairment. They will receive
   proper treatment, care and support . There is therapy and planned activities
   to help reduce the progression of their disease.
+
+
+
+  ASSISTED LIVING
+
+  Features:
+
+  Safety & Security
+
+  Geriatric trained staff
+
+  Excellent amenities
+
+  Social activities and engagement
+
+  Personalized Care plans
+
+  Nutritionally assisted meals
+
+  Physiotherapy and Rehabilitation
 ---
 
