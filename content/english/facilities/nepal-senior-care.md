@@ -12,10 +12,9 @@ tel: '01-4952662,  9851353457'
 email: info@nepalseniorcare.com.np
 website: 'https://nepalseniorcare.com.np/'
 services: >-
-  supervised care during the day , or those who are isolated and lonely.
+  Supervised care during the day.
 
-  Day care enables seniors with Dementia, Alzhemiers disease and other health
-  conditions to prevent from being home alone during the day and receive both
-  mental and social stimulation
+  Day care for Dementia, Alzhemiers patients and other health conditions to
+  prevent being lonely at home and receive both mental and social stimulation
 ---
 
