@@ -6,7 +6,7 @@ location: Jarsing Pauwa
 province: Bagmati
 tel: '9851021193'
 email: jpf@info.com.np
-capacity: '200'
+capacity: '150'
 occupancy: '22'
 food: Vegetarian diet from their own farms and dairy farm
 medical: Own Ambulance
