@@ -1,5 +1,5 @@
 ---
-title: J. P Foundation
+title: JP Foundation
 weight: 3
 lastUpdated: 2024-12-12T18:15:00.000Z
 location: Jarsing Pauwa
