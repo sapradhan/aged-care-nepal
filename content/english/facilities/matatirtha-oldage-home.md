@@ -1,10 +1,10 @@
 ---
-title: Matatirtha Oldage Home
+title: Matatirtha Old Age Home
 weight: 21
 lastUpdated: 2024-01-31T18:15:00.000Z
 lat: 27.681320880559273
 long: 85.23138742489675
-street_address: 'Chandragiri-6,Kathmandu'
+street_address: 'Chandragiri-6, Kathmandu'
 district: Kathmandu
 province: Bagmati
 facility_type: Non-profit
@@ -15,6 +15,6 @@ occupancy: 25 elderly women from ages 65 to 99 living in this home
 estd: '1997'
 food: 'Vegan, Vegetarian and non-vegetarian'
 services: Residential facility
-banner: /images/facilites/matatirtha-old-age.webp
+banner: /images/facilities/matatirtha-old-age.webp
 ---
 
