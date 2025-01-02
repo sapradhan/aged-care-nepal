@@ -36,7 +36,7 @@
           decoding="async"
           src="{{ $logoPath | absURL }}"
           alt="{{ $logoText }}"
-          class="img logo-light"
+          class="img img-light"
           height="{{ $logoHeight | default `auto` }}"
           width="{{ $logoWidth | default `auto` }}" />
         <img
@@ -44,7 +44,7 @@
           decoding="async"
           src="{{ $logoDarkPath | absURL }}"
           alt="{{ $logoText }}"
-          class="img logo-dark"
+          class="img img-dark"
           height="{{ $logoHeight | default `auto` }}"
           width="{{ $logoWidth | default `auto` }}" />
     </span>
@@ -55,7 +55,7 @@
           decoding="async"
           src="{{ $logoMobilePath | absURL }}"
           alt="{{ $logoText }}"
-          class="img logo-light"
+          class="img img-light"
           height="{{ $logoHeight | default `auto` }}"
           width="{{ $logoMobileWidth | default `auto` }}" />
         <img
@@ -63,7 +63,7 @@
           decoding="async"
           src="{{ $logoMobileDarkPath | absURL }}"
           alt="{{ $logoText }}"
-          class="img logo-dark"
+          class="img img-dark"
           height="{{ $logoHeight | default `auto` }}"
           width="{{ $logoMobileWidth | default `auto` }}" />
     </span>
@@ -156,7 +156,7 @@
         <img
           fetchpriority="high"
           decoding="async"
-          class="img logo-light"
+          class="img img-light"
           width="{{ $logoWidth | default $logoDefaultWidth }}"
           height="{{ $logoHeight | default $logoDefaultHeight }}"
           src="{{ $scratch.Get `logo` }}"
@@ -165,7 +165,7 @@
         <img
           fetchpriority="high"
           decoding="async"
-          class="img logo-dark"
+          class="img img-dark"
           width="{{ $logoWidth | default $logoDefaultWidth }}"
           height="{{ $logoHeight | default $logoDefaultHeight }}"
           src="{{ $scratch.Get `logo_dark` }}"
@@ -176,7 +176,7 @@
         <img
           fetchpriority="high"
           decoding="async"
-          class="img logo-light"
+          class="img img-light"
           width="{{ $logoWidth | default $logoDefaultWidth }}"
           height="{{ $logoHeight | default $logoDefaultHeight }}"
           src="{{ $scratch.Get `logo` }}"
@@ -185,7 +185,7 @@
         <img
           fetchpriority="high"
           decoding="async"
-          class="img logo-dark"
+          class="img img-dark"
           width="{{ $logoWidth | default $logoDefaultWidth }}"
           height="{{ $logoHeight | default $logoDefaultHeight }}"
           src="{{ $scratch.Get `logo_dark` }}"

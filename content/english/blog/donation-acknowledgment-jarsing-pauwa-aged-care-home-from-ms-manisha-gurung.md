@@ -1,6 +1,6 @@
 ---
 title: 'Donation Acknowledgment: Jarsing Pauwa Aged Care Home from Ms. Manisha Gurung'
-image: /images/Screenshot (301).png
+image: /images/blog/donation-manisha-gurung.webp
 date: 2024-12-11T18:15:00.000Z
 ---
 

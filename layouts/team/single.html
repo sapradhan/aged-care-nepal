@@ -6,7 +6,7 @@
         {{ with .Params.image }}
         <img class="rounded w-48 h-48 mr-3 lg:mr-6 object-cover" src="{{.}}" /> 
         {{ else }}
-        {{ partial "icons/icon" (dict "vendor" "tabler" "name" "user-circle" "className" "w-48 h-48 mr-3 lg:mr-6 object-cover" "width" "5em" "height" "5em") }}
+        {{ partial "icons/icon" (dict "vendor" "tabler/outline" "name" "user-circle" "className" "w-48 h-48 mr-3 lg:mr-6 object-cover" "width" "5em" "height" "5em") }}
         {{ end }}        
         <div class="flex flex-col gap-1">
           <h1>{{ .Title | title }}</h1>

@@ -1,5 +1,6 @@
 ---
 title: Expectations of senior citizens
+image: /images/blog/expectation-seniors.webp
 date: 2024-12-31T18:15:00.000Z
 ---
 
