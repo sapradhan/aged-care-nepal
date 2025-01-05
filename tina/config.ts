@@ -1,4 +1,4 @@
-import { defineConfig } from "tinacms";
+import { TinaCMS, Form, defineConfig } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -34,9 +34,24 @@ const branch =
             exclude: '_index'
           },
           ui: {
+            beforeSubmit: async ({
+              form,
+              cms,
+              values,
+            }: {
+              form: Form
+              cms: TinaCMS
+              values: Record<string, any>
+            }) => {
+              return {
+                ...values,
+                title: values.title.trim(),
+                lastUpdated: new Date().toISOString(),
+              }
+            },
             filename: {
               slugify: (values) => {
-                return `${values?.title?.toLowerCase()
+                return `${values?.title?.toLowerCase().trim()
                   .replace(/ /g, '-')
                   .replace(/[^-a-zA-Z_0-9]/g, '')}`
               },
@@ -99,9 +114,24 @@ const branch =
             exclude: '_index'
           },
           ui: {
+            beforeSubmit: async ({
+              form,
+              cms,
+              values,
+            }: {
+              form: Form
+              cms: TinaCMS
+              values: Record<string, any>
+            }) => {
+              return {
+                ...values,
+                title: values.title.trim(),
+                lastUpdated: new Date().toISOString(),
+              }
+            },
             filename: {
               slugify: (values) => {
-                return `${values?.title?.toLowerCase()
+                return `${values?.title?.toLowerCase().trim()
                   .replace(/ /g, '-')
                   .replace(/[^-a-zA-Z_0-9]/g, '')}`
               },
@@ -251,6 +281,30 @@ const branch =
               label: "Banner image",
             },
             {
+              type: "object",
+              name: "gallery",
+              label: "Gallery",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  // Field values are accessed by item?.<Field name>
+                  return { label: item?.caption };
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  name: "caption",
+                  label: "Caption"
+                },
+                {
+                  type: "image",
+                  name: "image",
+                  label: "Image"
+                }
+              ]
+            },
+            {
               type: "string",
               name: "tags",
               label: "Tags",
@@ -273,7 +327,7 @@ const branch =
             filename: {
               slugify: (values) => {
                 return `${values?.title
-                  ?.toLowerCase()
+                  ?.toLowerCase().trim()
                   .replace(/ /g, '-')
                   .replace(/[^-a-zA-Z_0-9]/g, '')}`
               },
@@ -347,14 +401,7 @@ const branch =
             allowedActions: {
               create: false,
               delete: false,
-            },
-            filename: {
-              slugify: (values) => {
-                return `${values?.title?.toLowerCase()
-                  .replace(/ /g, '-')
-                  .replace(/[^-a-zA-Z_0-9]/g, '')}`
-              },
-            },
+            }
           },
           fields: [
             {
@@ -418,6 +465,35 @@ const branch =
                 },
               ]
             },
+          ],
+        },
+        {
+          name: "faq",
+          label: "FAQ",
+          path: "content/english/pages",
+          match: {
+            include: 'faq'
+          },
+          ui: {
+            allowedActions: {
+              create: false,
+              delete: false,
+            }
+          },
+          fields: [
+            {
+              type: "string",
+              name: "title",
+              label: "Title",
+              isTitle: true,
+              required: true,
+            },
+            {
+              type: "rich-text",
+              name: "body",
+              label: "Body",
+              isBody: true,
+            }
           ],
         },
         {
