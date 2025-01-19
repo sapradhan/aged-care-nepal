@@ -1,9 +1,9 @@
 ---
-title: >-
-  Struggle of a Bajureli Patient: Takes 6 Days to Reach Surkhet, Transportation
-  Cost is 65,000
+title: Struggle of a Bajureli Patient
 date: 2024-09-03T18:15:00.000Z
 ---
+
+Takes 6 Days to Reach Surkhet, Transportation cost is 65,000
 
 85-year-old Harikrishna Kaila of Swamikartik Rural Municipality-4 of Bajura is an example of how much suffering the citizens of Karnali and the hilly and Himalayan regions of Far West have to go through for health treatment.
 

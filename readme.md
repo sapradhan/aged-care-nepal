@@ -11,3 +11,5 @@ After checkout run -
     hugo mod get
 
     pnpm i
+
+    hugo serve

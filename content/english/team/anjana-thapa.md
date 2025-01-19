@@ -3,7 +3,7 @@ title: Ms Anjana Thapa
 degree: Bachelor of Public Health (BPH)
 affiliation: Ask Foundation
 order: 1
-image: /images/team/anjana-thapa.png
+image: /images/team/anjana-thapa.webp
 position: Founding member
 span: ''
 ---
