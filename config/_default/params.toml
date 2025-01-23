@@ -2,9 +2,9 @@
 # favicon
 favicon = "images/logo/logo-128x128.png"
 # logo
-logo = "images/logo/logo-128x128.png"
-logo_darkmode = "images/logo/logo-128x128.png"
-logo_mobile = "images/logo/logo-128x128.png"
+logo = "images/logo/newlogo.svg"
+logo_darkmode = "images/logo/newlogo.svg"
+logo_mobile = "images/logo/newlogo.svg"
 
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
