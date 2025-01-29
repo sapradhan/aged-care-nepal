@@ -50,5 +50,10 @@ features:
     button:
       enable: true
       label: "Full list"
-      link: "publications"      
+      link: "publications"    
+      
+  - title: "Health Partners"
+    image: "/images/vector/partners.svg"
+    content: "- CAMS stands for Center for American Medical Specialists and is the first medical clinic of its kind, founded with a vision to bring evidence-based ethical practices to the Nepali healthcare system.
+    Sarwanidan is a registered polyclinic under the Ministry of Health. It has served the Ratopul, Gaushala, Kathmandu community for 30 years with OPD consultation, dressings, immunization, dental, laboratory, physiotherapy, and pharmacy services. The clinic is known for its personalized health care"
 ---
