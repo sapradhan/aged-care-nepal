@@ -1,0 +1,153 @@
+
+backend:
+  name: github
+  repo: sapradhan/aged-care-nepal
+  branch: sveltia
+  base_url: https://auth.agecarenepal.org
+
+media_folder: "static/images" # Folder where user uploaded files should go
+public_folder: "/images"
+
+collections:
+  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Blogs" # Used in the UI, ie.: "New Post"
+    folder: "content/english/blog" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    icon: post
+    slug: "{{slug}}"
+    media_folder: /static/images/blog
+    public_folder: /images/blog
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "boolean" }
+      - { label: "Synopsis (text to appear on home page)", name: "synopsis", widget: "string" }
+      - { label: "Banner", name: "image", widget: "image", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        max: 3
+        min: 1
+        required: false
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        max: 3
+        min: 1
+        required: false
+      - { label: "Body", name: "body", widget: "markdown" }
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss" }
+  - name: "facilities"
+    label: "Facilities"
+    folder: "content/english/facilities" 
+    sort: "weight:asc"
+    create: true
+    slug: "{{slug}}"
+    media_folder: static/images/facilities
+    public_folder: /images/facilities
+    fields:
+      - { name: "title", label: "Name", widget: "string" }
+      - { name: "weight", label: "Order(Lower comes first)", widget: "number", value_type: "int" }
+      - { name: "lastUpdated", label: "Updated date", widget: "datetime" }
+      - { name: "lat", label: "Latitude", widget: "number", value_type: "float", required: false }
+      - { name: "long", label: "Longitude", widget: "number", value_type: "float", required: false }
+      - { name: "street_address", label: "Street Address", widget: "string", required: false }
+      - { name: "location", label: "Location", widget: "map", required: false }
+      - { name: "ward", label: "Ward", widget: "number", value_type: "int", required: false }
+      - { name: "palika", label: "Municipality", widget: "string", required: false }
+      - { name: "district", label: "District", widget: "string", required: false }
+      - { name: "province", label: "Province", widget: "string", required: false }
+      - name: "facility_type"
+        label: "Type"
+        widget: "select"
+        required: false
+        options: 
+          - { value: 'Government', label: 'Government' }   
+          - { value: 'Non-profit', label: 'Non-profit' }
+          - { value: 'Private', label: 'Private' }
+      - { name: "tel", label: "Telephone", widget: "string", required: false }
+      - { name: "email", label: "Email", widget: "string", required: false }
+      - { name: "website", label: "Website", widget: "string", required: false }
+      - { name: "capacity", label: "Capacity", widget: "string", required: false }
+      - { name: "occupancy", label: "Occupancy", widget: "string", required: false }
+      - { name: "cost_per_month", label: "Cost per month", widget: "number", value_type: "float", required: false }
+      - { name: "estd", label: "Established date AD", widget: "string", required: false }
+      - { name: "food", label: "Diet options", widget: "text", required: false }
+      - { name: "medical", label: "Medical facilities", widget: "text", required: false }
+      - { name: "services", label: "Services offered", widget: "text", required: false }
+      - { name: "banner", label: "Banner image", widget: "image", required: false }
+      - name: "gallery"
+        label: "Gallery"
+        widget: "list"
+        fields: 
+          - { widget: "string", name: "caption", label: "Caption" }
+          - { widget: "image", name: "image", label: "Image" }
+      - { name: "tags", label: "Tags", widget: "list", field: "string", max: 3, min: 1, required: false }
+      - { name: "keywords", label: "Keywords", widget: "list", field: "string", max: 3, min: 1, required: false }
+  - name: "team"
+    label: "Team" 
+    folder: "content/english/team" 
+    sort: "order:asc"
+    create: true
+    icon: group
+    media_folder: /static/images/team
+    public_folder: /images/team
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Degrees", name: "degree", widget: "string" }
+      - { label: "Affiliation", name: "affiliation", widget: "string" }
+      - { label: "Order (Lower comes first)", name: "order", widget: "number", value_type: "int" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Position", name: "position", widget: "string" }
+      - name: "span"
+        label: "Span"
+        widget: "select"
+        required: false
+        options: 
+          - { value: 'normal', label: 'Normal' }   
+          - { value: 'full', label: 'Full' }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Donate"
+        name: "donate"
+        file: "content/english/pages/donate.md"
+        icon: account_balance
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Accounts"
+            name: "accounts"
+            widget: "list"
+            fields:
+              - { label: "Account Name", name: "name", widget: "string" }
+              - { label: "Account Number", name: "ac_no", widget: "string" }
+              - { label: "Bank", name: "bank", widget: "string" }
+              - { label: "Branch", name: "branch", widget: "string" }
+              - { label: "Code Type", name: "code_type", widget: "string" }
+              - { label: "Code", name: "code", widget: "string" }
+              - { label: "QR", name: "qr", widget: "image" }
+      - label: "FAQ"
+        name: "faq"
+        file: "content/english/pages/faq.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Policies"
+        name: "policies"
+        file: "content/english/pages/policies.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "policies" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - label: "policies"
+            name: "policies"
+            widget: "list"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Content", name: "content", widget: "text", required:false }
+              - { label: "URL", name: "url", widget: "string" }
