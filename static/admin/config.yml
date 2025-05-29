@@ -8,6 +8,21 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "/images"
 
+output:
+  omit_empty_optional_fields: true
+
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image: # original format
+          format: webp # new format, only `webp` is supported
+          quality: 85 # default: 85
+          width: 2048 # default: original size
+          height: 2048 # default: original size
+        svg:
+          optimize: true
+
 collections:
   - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Blogs" # Used in the UI, ie.: "New Post"
@@ -41,8 +56,12 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss" }
   - name: "facilities"
     label: "Facilities"
-    folder: "content/english/facilities" 
-    sort: "weight:asc"
+    folder: "content/english/facilities"
+    sortable_fields:
+      fields: [weight, title]
+      default:
+        field: weight
+        direction: ascending
     create: true
     slug: "{{slug}}"
     media_folder: static/images/facilities
@@ -54,7 +73,7 @@ collections:
       - { name: "lat", label: "Latitude", widget: "number", value_type: "float", required: false }
       - { name: "long", label: "Longitude", widget: "number", value_type: "float", required: false }
       - { name: "street_address", label: "Street Address", widget: "string", required: false }
-      - { name: "location", label: "Location", widget: "map", required: false }
+      - { name: "location", label: "Location", widget: "string", required: false }
       - { name: "ward", label: "Ward", widget: "number", value_type: "int", required: false }
       - { name: "palika", label: "Municipality", widget: "string", required: false }
       - { name: "district", label: "District", widget: "string", required: false }
@@ -94,6 +113,11 @@ collections:
     icon: group
     media_folder: /static/images/team
     public_folder: /images/team
+    sortable_fields:
+      fields: [order, title]
+      default:
+        field: order
+        direction: ascending
     fields:
       - { label: "Name", name: "title", widget: "string" }
       - { label: "Degrees", name: "degree", widget: "string" }
